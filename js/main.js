@@ -101,6 +101,15 @@
 		});
 	}
 
+  function toggleLOR(lorNumber) {
+    var content = document.getElementById("lor" + lorNumber);
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  }
+
 	/*--/ Testimonials owl /--*/
 	$('#testimonial-mf').owlCarousel({
 		margin: 20,
@@ -115,3 +124,5 @@
 	});
 
 })(jQuery);
+
+
