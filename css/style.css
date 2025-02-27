@@ -670,7 +670,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .skill-mf span {
@@ -694,7 +694,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -913,6 +913,149 @@ a:hover {
   display: inline-block;
   float: right;
 }
+
+
+  /* Work Experience Section */
+  .work-box {
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #faf9f7;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+  }
+  .work-box:hover {
+    transform: translateY(-10px);
+  }
+  .work-img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #d0b59b;
+  }
+  .work-info {
+    padding: 20px;
+  }
+  .work-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #070706;
+  }
+  .work-info ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+    color: #0e0c09;
+  }
+  .work-info ul li {
+    margin: 8px 0;
+  }
+
+
+  /* LOR Section */
+  .lor-box {
+    background-color: #fcfcfc;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #fffdfa;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lor-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .lor-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0f0e0d;
+    margin-bottom: 10px;
+  }
+
+  .lor-description {
+    font-size: 1rem;
+    color: #080707;
+    margin-bottom: 15px;
+  }
+
+  .lor-box a {
+    text-decoration: none;
+  }
+
+  /* Hover effect for the title */
+  .lor-box:hover .lor-title {
+    color: #412900;
+  }
+
+  .lor-box:hover .lor-description {
+    color: #3d2003;
+  }
+
+  .lor-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #f2efec;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lor-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .lor-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #120f0c;
+    margin-bottom: 15px;
+  }
+
+  /* Styling the Clickable Box with Outline */
+  .lor-link-box {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: 2px solid #454545;
+    color: #0f0d0b;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .lor-link-box:hover {
+    background-color: #894c02;
+    color: white;
+  }
+
+  .lor-link-text {
+    margin: 0;
+    text-align: center;
+  }
+
+  .lor-box a {
+    text-decoration: none;
+  }
+
 
 /*======================================
 //--//-->   Project-SINGLE
